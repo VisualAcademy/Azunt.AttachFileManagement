@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azunt.AttachFileManagement", "Azunt.AttachFileManagement\Azunt.AttachFileManagement.csproj", "{FA60CD67-E662-4E96-8167-7945B114B3AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA60CD67-E662-4E96-8167-7945B114B3AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA60CD67-E662-4E96-8167-7945B114B3AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA60CD67-E662-4E96-8167-7945B114B3AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA60CD67-E662-4E96-8167-7945B114B3AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D36A673-5224-4E5A-A1A4-88DBB11864BC}
+	EndGlobalSection
+EndGlobal
