@@ -1,12 +1,32 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-  </PropertyGroup>
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.3" />
-    <PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.6" />
-  </ItemGroup>
+        <!-- 버전 정보 -->
+        <VersionPrefix>1.0.0</VersionPrefix>
+        <VersionSuffix></VersionSuffix>
+
+        <!-- NuGet 메타데이터 -->
+        <Title>Azunt.AttachFileManagement</Title>
+        <Description>Azunt.AttachFileManagement is a reusable .NET Standard 2.0 library for managing file attachments with ADO.NET. Designed for Blazor Server, ASP.NET Core, and multi-tenant systems.</Description>
+        <PackageTags>Azunt, attachfile, file, upload, ADO.NET, SQLServer, multi-tenant</PackageTags>
+
+        <Authors>VisualAcademy</Authors>
+        <Company>Hawaso</Company>
+
+        <!-- 프로젝트 링크 -->
+        <PackageProjectUrl>https://github.com/VisualAcademy/Azunt.AttachFileManagement</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/VisualAcademy/Azunt.AttachFileManagement</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+
+        <!-- 저작권 정보 -->
+        <Copyright>© 2025 Hawaso. All rights reserved.</Copyright>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.3" />
+        <PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.6" />
+    </ItemGroup>
 
 </Project>
